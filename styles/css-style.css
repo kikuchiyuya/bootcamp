@@ -1,0 +1,21 @@
+.section1{
+   height: 420px;
+   width: 750px;
+   background-image: url("../images/a.JPG");
+   background-repeat:no-repeat ;
+   background-size: 150px 150px;
+   background-position: center center;
+
+}
+.section2{
+    background-image: url("../images/b.JPG");
+    height: 500px;
+    width: 800px;
+    background-size: contain;
+}
+body{
+    background-image: url("../images/c.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}

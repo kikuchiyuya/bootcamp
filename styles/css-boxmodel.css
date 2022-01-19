@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    background-color: #1aaec0;
+    height: 250px;
+    width: 680px;
+    /* margin-top: 25px; */
+    margin: 10px;
+    padding: 23px 10px;
+
+}
+#box2{
+    background-color: #1ac022;
+    height: 250px;
+    width: 680px;
+    margin: 5px 10px 3px ;
+
+}
+#box3{
+    background-color: #ea2008;
+    height: 250px;
+    width: 680px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 12px;
+    border: 8px outset rgb(19, 212, 68);
+    border-radius: 50px;
+    border-top: 8px redge gray;
+    border-left: 8px dotted dodgerblue;
+    border-right:8px inset goldenrod;
+    border-bottom:8px dashed teal;
+}

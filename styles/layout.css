@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header{
+    border: 4px solid red;
+    padding: 20px;
+}
+.header h1{
+    border: 2px dashed green;
+    float: left;
+
+}
+.header .sns{
+    border: 2px dashed black;
+   float: right;
+   margin-top:10px ;
+    
+}
+.header p{
+    border: 2px dashed purple;
+    /* clear: both; */
+    margin: 5px 0;
+    
+}
+
+.nav{
+    border: 4px solid red;
+    overflow: auto;
+    padding: 20px;
+   
+}
+
+.nav img{
+    border: 2px dashed green;
+    float: left;
+}
+.nav ul{
+    border: 2px dashed purple;
+    float: right;
+}
+.main{
+border: 4px solid blue;
+overflow: auto;
+}
+.section{
+    border: 2px dashed green;
+    height: 500px;
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+.sidebar{
+    border: 2px dashed black;
+    height: 500px;
+    width: 21%;
+    float: left;
+}
+
+/* position properties */
+/* offset properties=the mobement of the position element */
+/* 
+   left:0
+   top:0
+   right:
+   bottom
+*/
+.static{
+    border: 2px solid yellow;
+    width: 80px;
+    height: 80px;
+    /* no supporrt offset properties; */
+    left: 100px;
+}
+.relative{
+    border: 2px solid blue;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+.fixed{
+    border: 2px solid green;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+}
+.absolute{
+    border: 2px solid purple;
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+
+}

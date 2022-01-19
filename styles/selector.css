@@ -1,0 +1,57 @@
+/* universal selector
+*{
+    color: red;
+} */
+/* h1{
+    background-color: gray;
+} */
+/* class selector using */
+/* .chapter1{
+    background-color: aqua;
+}
+.chapter2{background-color: green;
+}
+.yuya{
+    font-size: 30px
+}
+ */
+
+
+/* id selector using # */
+
+/* #logo-name{
+    font-size:  50px;
+}
+#kikuchi{
+    text-align: center;
+} */
+
+/* and selecter using , */
+/* p,h2{
+    background-color: purple; */
+/* } */
+
+/* descendant selector using space(back spacing) */
+
+/* .chapter2 a{
+    background-color: hotpink;
+} */
+/* .chapter1 p a{
+    background-color: yellow;
+} */
+
+/* hierarachy of selector */
+#logo-name{
+    color: magenta;
+}
+
+.logo{
+    color: green;
+}
+
+h1{
+    color:red!important;
+}
+h1{
+    color: blue;
+}
